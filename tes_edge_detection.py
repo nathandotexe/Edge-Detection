@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-image_path = 'C:\\Users\windows\\Downloads\\edge_detection_1.jpg'
+image_path = 'Your Image File Directory'
 image = cv2.imread(image_path)
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
